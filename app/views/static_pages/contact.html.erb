@@ -1,0 +1,8 @@
+<%= link_to t(".english"), locale: "en" %>
+<%= link_to t(".vietnam"), locale: "vi" %>
+<% provide :title, t(".contact") %>
+<h1> <%= t ".contact" %> </h1>
+<p>
+  <%= t ".contact1" %>
+   <%= link_to t(".contact2"), Settings.static_pages.contact.link9 %>
+</p>
