@@ -1,0 +1,11 @@
+static_pages:
+  about:
+    link3: "http://railstutorial.org/book"
+    link2: "http://www.railstutorial.org/"
+    link4: "http://screencasts.railstutorial.org/"
+    link5: "http://rubyonrails.org/"
+  help:
+    link6: "http://www.railstutorial.org/help"
+    link7: "http://www.railstutorial.org/book"
+  home:
+    link8: "http://www.railstutorial.org/"
