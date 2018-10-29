@@ -1,4 +1,7 @@
 vi:
+  helpers:
+    application_helper:
+      title2: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
   static_pages:
     home:
       app: "Ứng dụng mẫu"
@@ -36,6 +39,3 @@ vi:
       contact: "Liên hệ"
       contact1: "Liên hệ với Ruby on Rails Tutorial về ứng dụng mẫu tại"
       contact2: "Trang liên lạc"
-  helpers:
-    application_helper:
-      title2: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
