@@ -1,4 +1,7 @@
 vi:
+  helpers:
+    application_helper:
+      title2: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
   static_pages:
     home:
       app: "Ứng dụng mẫu"
@@ -8,6 +11,7 @@ vi:
       title1: "Trang chủ"
       english: "Tiếng Anh"
       vietnam: "Tiếng Việt"
+      signup: "Đăng ký ngay!"
     about:
       titles: "Trợ giúp"
       the: "Các"
@@ -31,6 +35,27 @@ vi:
       book: "sách"
       english: "Tiếng Anh"
       vietnam: "Tiếng Việt"
-  helpers:
-    application_helper:
-      title2: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+    contact:
+      contact: "Liên hệ"
+      contact1: "Liên hệ với Ruby on Rails Tutorial về ứng dụng mẫu tại"
+      contact2: "Trang liên lạc"
+  users:
+    new:
+      sign: "Đăng ký"
+      page: "Đây sẽ là trang đăng ký cho người dùng mới."
+      english: "Tiếng Anh"
+      vietnam: "Tiếng Việt"
+  layouts:
+    _footer:
+      ruby: "Hướng dẫn Ruby on Rails"
+      name: "Michael Hartl"
+      titles: "Trợ giúp"
+      contact: "Liên hệ"
+      new: "Tin tức"
+      the: "Các"
+      by: "bởi"
+    _header:
+      sample: "ứng dụng mẫu"
+      home: "Trang chủ"
+      help: "Trợ Giúp"
+      login: "Đăng nhập"

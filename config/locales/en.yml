@@ -1,14 +1,17 @@
 en:
+  helpers:
+    application_helper:
+      title2: "Ruby on Rails Tutorial Sample App"
   static_pages:
     home:
-      app: "Sample App"
+      app: "Welcome to the Sample App"
       first: "This is the home page for the"
       link: "Ruby on Rail tutorial"
       last: "sample application."
       title1: "Home"
       english: "English"
       vietnam: "Vietnamese"
-      link8: "http://www.railstutorial.org/"
+      signup: "Sign up now!"
     about:
       english: "English"
       titles: "About"
@@ -32,6 +35,28 @@ en:
       book: "book"
       english: "English"
       vietnam: "Vietnamese"
-  helpers:
-    application_helper:
-      title2: "Ruby on Rails Tutorial Sample App"
+    contact:
+      contact: "Contact"
+      contact1: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contact2: "contact page."
+  users:
+    new:
+      sign: "Signup"
+      page: "This will be a signup page for new users."
+      english: "English"
+      vietnam: "Vietnamese"
+  layouts:
+    _footer:
+      ruby: "Ruby on Rails Tutorial"
+      name: "Michael Hartl"
+      titles: "About"
+      contact: "Contact"
+      new: "News"
+      the: "The"
+      by: "by"
+    _header:
+      sample: "sample app"
+      home: "Home"
+      help: "Help"
+      login: "Log in"
+      

@@ -9,3 +9,10 @@ static_pages:
     link7: "http://www.railstutorial.org/book"
   home:
     link8: "http://www.railstutorial.org/"
+  contact:
+    link9: "http://www.railstutorial.org/contact"
+layouts:
+  _footer:
+    link2: "http://www.railstutorial.org/"
+    link10: "http://www.michaelhartl.com"
+    link11: "http://news.railstutorial.org/"
