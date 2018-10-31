@@ -16,3 +16,7 @@ layouts:
     link2: "http://www.railstutorial.org/"
     link10: "http://www.michaelhartl.com"
     link11: "http://news.railstutorial.org/"
+User:
+  number: 50
+  number1: 255
+  number2: 6
