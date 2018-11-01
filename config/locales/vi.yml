@@ -68,6 +68,23 @@ vi:
       home: "Trang chủ"
       help: "Trợ Giúp"
       login: "Đăng nhập"
+      user: "Users"
+      profile: "Hồ sơ"
+      setting: "Cài đặt"
+      log: "Đăng xuất"
+      login: "Đăng nhập"
+      account: "Tài khoản"
+  sessions:
+    create:
+      invalid: "Kết hợp email / mật khẩu không hợp lệ"
+    new:
+      login: "Đăng nhập"
+      email: "Email"
+      password: "Mật khẩu"
+      english: "Tiếng Anh"
+      vietnam: "Tiếng Việt"
+      newuser: "Người dùng mới?"
+      signup: "Đăng ký ngay!"
   shared:
     error_messages:
       form: "Biểu mẫu có chứa"
