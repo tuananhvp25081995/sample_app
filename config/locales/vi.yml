@@ -40,13 +40,22 @@ vi:
       contact1: "Liên hệ với Ruby on Rails Tutorial về ứng dụng mẫu tại"
       contact2: "Trang liên lạc"
   users:
+    create:
+      welcome: "Chào mừng bạn đến với Ứng dụng mẫu!"
+    show:
+      nouser: "Không có người dùng như vậy"
     new:
       sign: "Đăng ký"
       page: "Đây sẽ là trang đăng ký cho người dùng mới."
       english: "Tiếng Anh"
       vietnam: "Tiếng Việt"
+      password_confirmation: "Xác nhận mật khẩu"
+      create: "Tạo tài khoản"
+      name: "Tên"
+      email: "Email"
+      pass: "Mật khẩu"
   layouts:
-    _footer:
+    footer:
       ruby: "Hướng dẫn Ruby on Rails"
       name: "Michael Hartl"
       titles: "Trợ giúp"
@@ -54,8 +63,14 @@ vi:
       new: "Tin tức"
       the: "Các"
       by: "bởi"
-    _header:
+    header:
       sample: "ứng dụng mẫu"
       home: "Trang chủ"
       help: "Trợ Giúp"
       login: "Đăng nhập"
+  shared:
+    error_messages:
+      form: "Biểu mẫu có chứa"
+      err: "lỗi"
+      english: "Tiếng Anh"
+      vietnam: "Tiếng Việt"

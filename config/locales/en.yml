@@ -40,13 +40,22 @@ en:
       contact1: "Contact the Ruby on Rails Tutorial about the sample app at the"
       contact2: "contact page."
   users:
+    create:
+      welcome: "Welcome to the Sample App!"
+    show:
+      nouser: "No such user"
     new:
       sign: "Signup"
       page: "This will be a signup page for new users."
       english: "English"
       vietnam: "Vietnamese"
+      password_confirmation: "Confirmation"
+      create: "Create my account"
+      name: "Name"
+      email: "Email"
+      pass: "Password"
   layouts:
-    _footer:
+    footer:
       ruby: "Ruby on Rails Tutorial"
       name: "Michael Hartl"
       titles: "About"
@@ -54,9 +63,14 @@ en:
       new: "News"
       the: "The"
       by: "by"
-    _header:
+    header:
       sample: "sample app"
       home: "Home"
       help: "Help"
       login: "Log in"
-      
+  shared:
+    error_messages:
+      form: "The form contains"
+      err: "error"
+      english: "English"
+      vietnam: "Vietnamese"
