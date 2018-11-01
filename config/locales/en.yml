@@ -68,6 +68,22 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+      user: "Users"
+      profile: "Profile"
+      setting: "Settings"
+      log: "Log out"
+      login: "Log in"
+  sessions:
+    create:
+      invalid: "Invalid email/password combination"
+    new:
+      login: "Log in"
+      email: "Email"
+      password: "Password"
+      english: "English"
+      vietnam: "Vietnamese"
+      newuser: "New user?"
+      signup: "Sign up now!"
   shared:
     error_messages:
       form: "The form contains"
