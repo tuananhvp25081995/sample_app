@@ -44,6 +44,15 @@ vi:
       welcome: "Chào mừng bạn đến với Ứng dụng mẫu!"
     show:
       nouser: "Không có người dùng như vậy"
+    update:
+      profile: "Hồ sơ cá nhân đã cập nhật"
+    logged_in_user:
+      please: "Xin vui lòng đăng nhập."
+    load_user:
+      nouser: "No such user"
+    destroy:
+      delete: "Đã xóa người dùng"
+      not: "Không tìm thấy người dùng"
     new:
       sign: "Đăng ký"
       page: "Đây sẽ là trang đăng ký cho người dùng mới."
@@ -54,6 +63,26 @@ vi:
       name: "Tên"
       email: "Email"
       pass: "Mật khẩu"
+    edit:
+      edit: "Chỉnh sửa người dùng"
+      update: "Cập nhật tiểu sử của bạn"
+      name: "Tên"
+      email: "Email"
+      pass: "Mật khẩu"
+      password_confirmation: "Xác nhận"
+      save: "Lưu thay đổi"
+      change: "thay đổi"
+      english: "Tiếng Anh"
+      vietnam: "Tiếng Việt"
+      please: "Xin vui lòng đăng nhập."
+    index:
+      all: "Tất cả người dùng"
+      english: "Tiếng Anh"
+      vietnam: "Tiếng Việt"
+      please: "Xin vui lòng đăng nhập."
+    user:
+      del: "Xóa"
+      sure: "Bạn chắc chắn?"
   layouts:
     footer:
       ruby: "Hướng dẫn Ruby on Rails"
