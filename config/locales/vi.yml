@@ -85,6 +85,7 @@ vi:
       vietnam: "Tiếng Việt"
       newuser: "Người dùng mới?"
       signup: "Đăng ký ngay!"
+      remember: "Hãy nhớ tôi trên máy tính này"
   shared:
     error_messages:
       form: "Biểu mẫu có chứa"
