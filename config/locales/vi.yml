@@ -41,7 +41,7 @@ vi:
       contact2: "Trang liên lạc"
   users:
     create:
-      welcome: "Chào mừng bạn đến với Ứng dụng mẫu!"
+      plea: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn"
     show:
       nouser: "Không có người dùng như vậy"
     update:
@@ -106,6 +106,7 @@ vi:
   sessions:
     create:
       invalid: "Kết hợp email / mật khẩu không hợp lệ"
+      message: "Tài khoản không được kích hoạt! Kiểm tra email của bạn để biết liên kết kích hoạt"
     new:
       login: "Đăng nhập"
       email: "Email"
@@ -115,9 +116,26 @@ vi:
       newuser: "Người dùng mới?"
       signup: "Đăng ký ngay!"
       remember: "Hãy nhớ tôi trên máy tính này"
+  account_activations:
+    edit:
+      acti: "Account activated!"
+      inval: "Invalid activation link"
   shared:
     error_messages:
       form: "Biểu mẫu có chứa"
       err: "lỗi"
       english: "Tiếng Anh"
       vietnam: "Tiếng Việt"
+  user_mailer:
+    account_activation:
+      sam: "Sample App"
+      hi: "Hi"
+      wel: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+    password_reset:
+      reset: "Người dùng#đặt lại mật khẩu"
+      find: "tìm ở app/views/user_mailer/password_reset.html.erb"
+  mailers:
+    user_mailer:
+      activation: "Kích hoạt tài khoản"
+      hi: "Xin Chào"

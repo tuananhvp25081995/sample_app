@@ -41,7 +41,7 @@ en:
       contact2: "contact page."
   users:
     create:
-      welcome: "Welcome to the Sample App!"
+      plea: "Please check your email to activate your account"
     show:
       nouser: "No such user"
     update:
@@ -106,6 +106,7 @@ en:
   sessions:
     create:
       invalid: "Invalid email/password combination"
+      message: "Account not activated! Check your email for the activation link"
     new:
       login: "Log in"
       email: "Email"
@@ -115,9 +116,26 @@ en:
       newuser: "New user?"
       signup: "Sign up now!"
       remember: "Remember me on this computer"
+  account_activations:
+    edit:
+      acti: "Account activated!"
+      inval: "Invalid activation link"
   shared:
     error_messages:
       form: "The form contains"
       err: "error"
       english: "English"
       vietnam: "Vietnamese"
+  user_mailer:
+    account_activation:
+      sam: "Sample App"
+      hi: "Hi"
+      wel: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+    password_reset:
+      reset: "User#password_reset"
+      find: "find me in app/views/user_mailer/password_reset.html.erb"
+  mailers:
+    user_mailer:
+      activation: "Account activation"
+      hi: "Hi"
