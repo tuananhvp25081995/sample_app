@@ -44,6 +44,15 @@ en:
       welcome: "Welcome to the Sample App!"
     show:
       nouser: "No such user"
+    update:
+      profile: "Profile updated"
+    logged_in_user:
+      please: "Please log in."
+    load_user:
+      nouser: "No such user"
+    destroy:
+      delete: "User deleted"
+      not: "User not found"
     new:
       sign: "Signup"
       page: "This will be a signup page for new users."
@@ -54,6 +63,26 @@ en:
       name: "Name"
       email: "Email"
       pass: "Password"
+    edit:
+      tit: "Edit user"
+      update: "Update your profile"
+      name: "Name"
+      email: "Email"
+      pass: "Password"
+      password_confirmation: "Confirmation"
+      save: "Save changes"
+      change: "change"
+      english: "English"
+      vietnam: "Vietnamese"
+      please: "Please log in."
+    index:
+      all: "All users"
+      english: "English"
+      vietnam: "Vietnamese"
+      please: "Please log in."
+    user:
+      del: "delete"
+      sure: "You sure?"
   layouts:
     footer:
       ruby: "Ruby on Rails Tutorial"

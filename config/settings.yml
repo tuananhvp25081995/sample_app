@@ -16,7 +16,16 @@ layouts:
     link2: "http://www.railstutorial.org/"
     link10: "http://www.michaelhartl.com"
     link11: "http://news.railstutorial.org/"
+users:
+  edit:
+    link12: "http://gravatar.com/emails"
 User:
   number: 50
   number1: 255
   number2: 6
+_user:
+  size: 5
+users_helper:
+  size1: 80
+users_controller:
+  size2: 10
