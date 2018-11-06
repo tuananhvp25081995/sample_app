@@ -9,7 +9,7 @@ class SessionsController < ApplicationController
         params[:session][:remember_me] == "1" ? remember(user) : forget(user)
         redirect_back_or user
       else
-        flash[:warning] = message
+        flash[:warning] = t ".message"
         redirect_to root_url
       end
     else

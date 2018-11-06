@@ -49,7 +49,7 @@ vi:
     logged_in_user:
       please: "Xin vui lòng đăng nhập."
     load_user:
-      nouser: "No such user"
+      nouser: "Không có người dùng như vậy"
     destroy:
       delete: "Đã xóa người dùng"
       not: "Không tìm thấy người dùng"
@@ -116,10 +116,35 @@ vi:
       newuser: "Người dùng mới?"
       signup: "Đăng ký ngay!"
       remember: "Hãy nhớ tôi trên máy tính này"
+      forgot: "(quên mật khẩu)"
   account_activations:
     edit:
       acti: "Account activated!"
       inval: "Invalid activation link"
+  password_resets:
+    create:
+      sent: "Email được gửi với hướng dẫn đặt lại mật khẩu"
+      address: "Không tìm thấy địa chỉ email"
+    update:
+      empty: "không được để trống"
+      pass: "Mật khẩu đã được đặt lại."
+    check_expiration:
+      expire: "Đặt lại mật khẩu đã hết hạn."
+    new:
+      forgot: "Forgot password"
+      submit: "Submit"
+      email: "Email"
+      english: "Tiếng Anh"
+      vietnam: "Tiếng Việt"
+    edit:
+      reset: "Đặt lại mật khẩu"
+      pass: "mật khẩu"
+      confi: "Xác nhận"
+      update: "Cập nhật mật khẩu"
+      english: "Tiếng Anh"
+      vietnam: "Tiếng Việt"
+    get_user:
+      nouser: "Không có người dùng như vậy"
   shared:
     error_messages:
       form: "Biểu mẫu có chứa"
@@ -138,4 +163,4 @@ vi:
   mailers:
     user_mailer:
       activation: "Kích hoạt tài khoản"
-      hi: "Xin Chào"
+      reset: "Đặt lại mật khẩu"

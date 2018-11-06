@@ -116,10 +116,35 @@ en:
       newuser: "New user?"
       signup: "Sign up now!"
       remember: "Remember me on this computer"
+      forgot: "(forgot password)"
   account_activations:
     edit:
       acti: "Account activated!"
       inval: "Invalid activation link"
+  password_resets:
+    create:
+      sent: "Email sent with password reset instructions"
+      address: "Email address not found"
+    update:
+      empty: "can't be empty"
+      pass: "Password has been reset."
+    check_expiration:
+      expire: "Password reset has expired."
+    new:
+      forgot: "Forgot password"
+      submit: "Submit"
+      email: "Email"
+      english: "English"
+      vietnam: "Vietnamese"
+    edit:
+      reset: "Reset password"
+      pass: "password"
+      confi: "Confirmation"
+      update: "Update password"
+      english: "English"
+      vietnam: "Vietnamese"
+    get_user:
+      nouser: "No such user"
   shared:
     error_messages:
       form: "The form contains"
@@ -138,4 +163,4 @@ en:
   mailers:
     user_mailer:
       activation: "Account activation"
-      hi: "Hi"
+      reset: "Password reset"
