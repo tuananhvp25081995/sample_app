@@ -23,6 +23,7 @@ User:
   number: 50
   number1: 255
   number2: 6
+  number3: 2
 _user:
   size: 5
 users_helper:
