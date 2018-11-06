@@ -30,3 +30,12 @@ users_helper:
   size1: 80
 users_controller:
   size2: 10
+static_pages_controller:
+  size3 : 15
+Micropost:
+  number4: 140
+  number10: 5
+_micropost:
+  number5: 50
+user_info:
+  number6: 50

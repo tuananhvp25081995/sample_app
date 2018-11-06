@@ -34,7 +34,9 @@ class UsersController < ApplicationController
 
   def edit; end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.page(params[:page]).per Settings.users_controller.size2
+  end
 
   def destroy
     if @user.destroy
