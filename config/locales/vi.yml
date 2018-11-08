@@ -86,6 +86,13 @@ vi:
       sure: "Bạn chắc chắn?"
     show:
       micro: "Microposts"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Hủy theo dõi"
+    show_follow:
+      myview: "xem tiểu sử của tôi"
+      micro: "Microposts :"
   application:
     logged_in_user:
       please: "Xin vui lòng đăng nhập."
@@ -174,6 +181,9 @@ vi:
     micropost_form:
       compose: "Soạn micropost mới ..."
       post: "Bài đăng"
+    stats:
+      following: "đang theo dõi"
+      followers: "người theo dõi"
   user_mailer:
     account_activation:
       sam: "Sample App"

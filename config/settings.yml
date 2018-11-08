@@ -39,3 +39,5 @@ _micropost:
   number5: 50
 user_info:
   number6: 50
+show_follow:
+  number7: 30

@@ -3,6 +3,7 @@ class UsersController < ApplicationController
   before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: %i(destroy)
   before_action :load_user, except: %i(new create index)
+  before_action :logged_in_user, except: %i(new create show)
 
   def index
     @users = User.page(params[:page]).per Settings.users_controller.size2
@@ -36,6 +37,8 @@ class UsersController < ApplicationController
 
   def show
     @microposts = @user.microposts.page(params[:page]).per Settings.users_controller.size2
+    @follow = current_user.active_relationships.build
+    @unfollow = current_user.active_relationships.find_by followed_id: @user.id
   end
 
   def destroy
@@ -45,6 +48,20 @@ class UsersController < ApplicationController
     end
     flash[:success] = t ".delete"
     redirect_to users_url
+  end
+
+  def following
+    @title = t ".following"
+    @user  = User.find_by id: params[:id]
+    @users = @user.following.page(params[:page]).per Settings.users_controller.size2
+    render "show_follow"
+  end
+
+  def followers
+    @title = t ".followers"
+    @user  = User.find_by id: params[:id]
+    @users = @user.followers.page(params[:page]).per Settings.users_controller.size2
+    render "show_follow"
   end
 
   private
