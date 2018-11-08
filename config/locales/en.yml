@@ -12,6 +12,7 @@ en:
       english: "English"
       vietnam: "Vietnamese"
       signup: "Sign up now!"
+      feed: "Micropost Feed"
     about:
       english: "English"
       titles: "About"
@@ -83,6 +84,11 @@ en:
     user:
       del: "delete"
       sure: "You sure?"
+    show:
+      micro: "Microposts"
+  application:
+    logged_in_user:
+      please: "Please log in."
   layouts:
     footer:
       ruby: "Ruby on Rails Tutorial"
@@ -117,6 +123,17 @@ en:
       signup: "Sign up now!"
       remember: "Remember me on this computer"
       forgot: "(forgot password)"
+  microposts:
+    micropost:
+      post: "Posted"
+      ago: "ago."
+      delete: "delete"
+      sure: "You sure?"
+    create:
+      create: "Micropost created!"
+    destroy:
+      delete: "Micropost deleted"
+      fail: "Delete failed"
   account_activations:
     edit:
       acti: "Account activated!"
@@ -151,6 +168,12 @@ en:
       err: "error"
       english: "English"
       vietnam: "Vietnamese"
+    user_info:
+      view: "view my profile"
+      mic: "micropost"
+    micropost_form:
+      compose: "Compose new micropost..."
+      post: "Post"
   user_mailer:
     account_activation:
       sam: "Sample App"
@@ -164,3 +187,9 @@ en:
     user_mailer:
       activation: "Account activation"
       reset: "Password reset"
+  models:
+    micropost:
+      than: "should be less than 5MB"
+  javascripts:
+    _micropost_form:
+      maximum: "Maximum file size is 5MB. Please select a smaller file."

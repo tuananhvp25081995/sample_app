@@ -12,6 +12,7 @@ vi:
       english: "Tiếng Anh"
       vietnam: "Tiếng Việt"
       signup: "Đăng ký ngay!"
+      feed: "Nguồn cấp dữ liệu Micropost"
     about:
       titles: "Trợ giúp"
       the: "Các"
@@ -83,6 +84,11 @@ vi:
     user:
       del: "Xóa"
       sure: "Bạn chắc chắn?"
+    show:
+      micro: "Microposts"
+  application:
+    logged_in_user:
+      please: "Xin vui lòng đăng nhập."
   layouts:
     footer:
       ruby: "Hướng dẫn Ruby on Rails"
@@ -117,6 +123,17 @@ vi:
       signup: "Đăng ký ngay!"
       remember: "Hãy nhớ tôi trên máy tính này"
       forgot: "(quên mật khẩu)"
+  microposts:
+    micropost:
+      post: "Đã đăng"
+      ago: "trước đây."
+      delete: "xóa"
+      sure: "Bạn chắc chắn?"
+    create:
+      create: "Micropost đã được tạo!"
+    destroy:
+      delete: "Đã xóa micropost"
+      fail: "Không xóa được"
   account_activations:
     edit:
       acti: "Account activated!"
@@ -151,6 +168,12 @@ vi:
       err: "lỗi"
       english: "Tiếng Anh"
       vietnam: "Tiếng Việt"
+    user_info:
+      view: "xem tiểu sử của tôi"
+      mic: "micropost"
+    micropost_form:
+      compose: "Soạn micropost mới ..."
+      post: "Bài đăng"
   user_mailer:
     account_activation:
       sam: "Sample App"
@@ -164,3 +187,9 @@ vi:
     user_mailer:
       activation: "Kích hoạt tài khoản"
       reset: "Đặt lại mật khẩu"
+  models:
+    micropost:
+      than: "phải nhỏ hơn 5MB"
+  javascripts:
+    _micropost_form:
+      maximum: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tệp nhỏ hơn."
