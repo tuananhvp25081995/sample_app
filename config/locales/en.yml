@@ -54,6 +54,10 @@ en:
     destroy:
       delete: "User deleted"
       not: "User not found"
+    following:
+      following: "following"
+    followers:
+      followers: "followers"
     new:
       sign: "Signup"
       page: "This will be a signup page for new users."
@@ -86,6 +90,13 @@ en:
       sure: "You sure?"
     show:
       micro: "Microposts"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      myview: "view my profile"
+      micro: "Microposts :"
   application:
     logged_in_user:
       please: "Please log in."
@@ -174,6 +185,9 @@ en:
     micropost_form:
       compose: "Compose new micropost..."
       post: "Post"
+    stats:
+      following: "following"
+      followers: "followers"
   user_mailer:
     account_activation:
       sam: "Sample App"
